@@ -7,6 +7,8 @@ public class Main {
 		Book b3=new PhysicalBook("Lolita", "Vladimir Nabokov",3,"Fiction",400,20);
 		Book b4=new Ebook("Dune","Frank Herbert",4,"Fantasy",400);
 		System.out.println(b1.getBookHashMap());
+		Cart a= new Cart();
+
 
 		}
 

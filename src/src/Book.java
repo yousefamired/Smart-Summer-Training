@@ -6,7 +6,7 @@ public abstract class Book {
     private int id;
     private String genre;
     private int price;
-    private static HashMap<Integer,Book> bookHashMap = new HashMap<>();
+    private static final HashMap<Integer,Book> bookHashMap = new HashMap<>();
     private static int index=0;
 
 
@@ -85,6 +85,7 @@ public abstract class Book {
     public HashMap<Integer, Book> getBookHashMap() {
         return Book.bookHashMap;
     }
+
 
 
 }
